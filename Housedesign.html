@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design your House</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(https://media.istockphoto.com/id/116039015/photo/drawing-room-3d.jpg?s=612x612&w=0&k=20&c=DnK_q99-3yF0sLE8oLGxm38_KUVasx7Cxq6F9aoJu4k=);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            float: left;
+            color: #ffffff96;
+            font-size: 40px;
+            font-family: sans-serif;
+            padding: 10px 25px;
+
+
+        }
+
+        .navbar ul {
+            float: right;
+            list-style: none;
+            margin-top: 35px;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px 25px;
+            cursor: pointer;
+            /* border: 1px solid silver; */
+            font-weight: bold;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+            color: rgba(192, 192, 192, 0.559);
+
+        }
+
+        .active,
+        l {
+            text-decoration: underline;
+            color: rgba(192, 192, 192, 0.559);
+        }
+
+        .heading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .heading h1 {
+            color: white;
+            font-size: 66px;
+        }
+
+        .info {
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            margin-top: 14px;
+        }
+
+        .button {
+            position: absolute;
+            top: 66%;
+            left: 50%;
+            right: 20%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .btn {
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+
+        .button a {
+            text-decoration: none;
+            font-weight: lighter;
+        }
+
+        .button a:hover {
+            color: white;
+            background-color: rgba(0, 255, 255, 0.502);
+            cursor: pointer;
+            transition: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    <div class="logo">
+        <h3>AKASH's</h3>
+    </div>
+    <div class="menu">
+        <navbar class="navbar">
+            <ul>
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">BEDROOM</a></li>
+                <li><a href="#">DINING</a></li>
+                <li><a href="#">KITCHEN</a></li>
+                <li><a href="#">BACKYARD</a></li>
+            </ul>
+        </navbar>
+    </div>
+    </header>
+    <div class="heading">
+        <h1>DESIGN YOUR HOUSE</h1>
+        <p class="info">Make your home awesome with good ideas and designs with<br> the best guidence of Mr.Akash Mohanty
+        </p>
+    </div>
+    <div class="button">
+        <a href="" class="btn">CALL US NOW</a>
+        <a href="" class="btn">ABOUT MORE</a>
+    </div>
+
+</body>
+
+</html>

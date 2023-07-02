@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .mainbox {
+            /* opacity: 0.9; */
+            background-color: rgba(0, 0, 255, 0.9);
+            height: 450px;
+            width: 100%;
+            margin-top: 20px;
+            /* margin: 10px 5px; */
+        }
+
+        .navbar ul {
+            float: left;
+            list-style: none;
+            margin-top: 60px;
+            margin-left: 70px;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 13px;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            opacity: 0.7;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .search {
+            width: 200px;
+            float: right;
+            margin-top: 60px;
+            margin-right: 70px;
+            padding-right: 15px;
+        }
+
+        #search {
+            border: 2px solid white;
+            background-color: rgba(128, 128, 128, 0.4);
+            color: white;
+            border-radius: 20px;
+            height: 30px;
+            width: 200px;
+            padding-left: 20px;
+        }
+
+        .heading {
+            color: white;
+            position: absolute;
+            top: 25%;
+            left: 5.3%;
+            font-size: 20px;
+            /* margin-left: 70px;
+            padding-left: 15px; */
+        }
+
+        #line1 {
+            opacity: .7;
+        }
+
+        .content {
+            font-size: 15px;
+            margin-top: 13px;
+            opacity: .5;
+        }
+
+        .btn {
+            position: absolute;
+            top: 48.5%;
+            right: 85%;
+            background-color: blue;
+            color: white;
+            border: 2ps solid white;
+            border-radius: 20px;
+            height: 40px;
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: grey;
+        }
+
+        .box1 {
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 5.5%;
+            top: 57.8%;
+            height: 30%;
+            width: 25%;
+            background-color: orangered;
+        }
+
+        .box2 {
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 63%;
+            height: 36%;
+            width: 33%;
+            left: 33.1%;
+        }
+
+        .box3 {
+            /* border: 2px solid rgb(255, 0, 0); */
+            position: absolute;
+            top: 63%;
+            left: 66.1%;
+            height: 36%;
+            width: 33.1%;
+        }
+
+        #h1 {
+            color: white;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        #p1 {
+            color: white;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        #h2 {
+            color: blue;
+            font-weight: bolder;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        #p2 {
+            color: black;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        #h3 {
+            color: rgb(31, 31, 71);
+            font-weight: bolder;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        #p3 {
+            color: orangered;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="menu">
+            <navbar class="navbar">
+                <ul>
+                    <li class="active"><a href="#">ABOUT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">SERVICVES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </navbar>
+        </div>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+            <div class="heading">
+                <h1 id="line1">Beautiful, Innovative &</h1>
+                <h1 id="line2">Effective Websites</h1>
+                <p class="content">Having a unique website design is important of the <br>
+                    branding and maintaing process of your business
+                </p>
+            </div>
+            <button class="btn">READ MORE</button>
+        <div class="box1">
+            <h4 id="h1">01 WEB DESIGN</h4>
+            <p id="p1">Bringe your side to life <br>
+                in a powerful painless way</p>
+        </div>
+        <div class="box2">
+            <h3 id="h2">LATEST NEWS</h3>
+            <p id="p2">Nisi ul aliquip ex ea commando consequat <br>
+                uis aute irure dolor in reprehenderi</p>
+        </div>
+        <div class="box3">
+            <h3 id="h3">BEAUTIFUL, INOVATIVE & EFFECTIVE <br>
+                WEBSITES WITH BOX THEME</h3>
+            <p id="p3">Get started your project</p>
+        </div>
+
+
+</body>
+
+</html>
